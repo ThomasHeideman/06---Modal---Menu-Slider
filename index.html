@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="../src/image/png"
+      sizes="32x32"
+      href="src/favicon-32x32.png"
+    />
+
+    <title>Modal & Menu Slider</title>
+  </head>
+  <body>
+    <div class="nav-wrapper" id="nav-wrapper">
+      <nav>
+        <a href="#" class="logo color-white" >
+          <span class="fa-stack fa-4x">
+            <i class="fa-solid fa-message fa-stack-2x"></i>
+            <i class="fa-solid fa-signature fa-stack-1x fa-inverse" style="color: Tomato"></i></i>
+          </span>
+        </a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn-toggle" id="toggle">
+        <i class="fa-solid fa-bars fa-2x color-white"></i>
+      </button>
+    </div>
+
+    <main id="main">
+    <header>
+      
+      <div class="cta-container">
+      <span class="written">It’s not a bug – it’s a signature feature.</span>
+      <button class="btn-cta" id="open">SIGN UP!</button>
+    </div>
+    </header>
+      <section class="container-row bg-grey-lightest">
+        <div class="container-row-inner gap-lg">
+          <div class="column column--66">
+            <h1>
+              Deleted code is debugged code.
+              <br /><span class="light color-grey">- Jeff Sickel -</span>
+            </h1>
+            <p>
+              The first 90% of the code accounts for the first 90% of the
+              development time. The remaining 10% of the code accounts for the
+              other 90% of the development time. (Tom Cargill) The city’s
+              central computer told you? R2D2, you know better than to trust a
+              strange computer! (C3PO) Measuring programming progress by lines
+              of code is like measuring aircraft building progress by weight.
+              (Bill Gates) There are only two industries that refer to their
+              customers as ‘users’. (Edward Tufte)
+            </p>
+          </div>
+          <div class="column column--33 justify-center">
+            <div class="clip-wrapper margin-top-sm">
+              <img class="clip-img" src="https://picsum.photos/id/20/275" alt="placeholder-image"/>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-row bg-grey-darker">
+        <div class="container-row-inner gap-lg">
+          <div class="column column--33 justify-center">
+            <div class="clip-wrapper margin-top-sm">
+              <img class="clip-img" src="https://picsum.photos/id/445/275" alt="placeholder-image"/>
+              
+            </div>
+          </div>
+          <div class="column column--66">
+            <h1 class="color-white">
+              Good code is its own best documentation.
+              <br /><span class="light color-grey">- Steve McConnell -</span>
+            </h1>
+            <p class="color-white">
+              Complexity kills. It sucks the life out of developers, it makes
+              products difficult to plan, build and test, it introduces security
+              challenges, and it causes end-user and administrator frustration.
+              (Ray Ozzie) Programming today is a race between software engineers
+              striving to build bigger and better idiot-proof programs, and the
+              universe trying to produce bigger and better idiots. So far, the
+              universe is winning. (Rick Cook) If it keeps up, man will atrophy
+              all his limbs but the push-button finger. (Frank Lloyd Wright)
+            </p>
+          </div>
+        </div>
+
+        <p></p>
+      </section>
+
+      <section class="container-row bg-grey-lightest">
+        <div class="container-row-inner gap-sm">
+          <div class="column column--33 card">
+            <div class="clip-wrapper">
+              <img class="clip-img small" src="https://picsum.photos/id/157/275"alt="placeholder-image"/>
+              
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner-text">
+                <h3>To iterate is human, to recurse divine.</h3>
+                <p>
+                  First, solve the problem. Then, write the code. (John Johnson)
+                  You can’t have great software without a great team, and most
+                  software teams behave like dysfunctional families. (Jim
+                  McCarthy)
+                </p>
+              </div>
+              <button class="btn-secondary">
+                read more<i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="column column--33 card">
+            <div class="clip-wrapper">
+              <img class="clip-img small" src="https://picsum.photos/id/42/275" alt="placeholder-image"/>
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner-text">
+                <h3>Never trust a computer you can’t throw out a window.</h3>
+                <p>
+                  Computer language design is just like a stroll in the park.
+                  Jurassic Park, that is. (Larry Wall) There are only two kinds
+                  of programming languages: those people always bitch about and
+                  those nobody uses. (Bjarne Stroustrup)
+                </p>
+              </div>
+              <button class="btn-secondary">
+                read more<i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="column column--33 card">
+            <div class="clip-wrapper">
+              <img class="clip-img small" src="https://picsum.photos/id/133/275" alt="placeholder-image"/>
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner-text">
+                <h3>First, solve the problem. Then, write the code.</h3>
+                <p>
+                  We will never become a truly paper-less society until the Palm
+                  Pilot folks come out with WipeMe 1.0. (Andy Pierson) If Java
+                  had true garbage collection, most programs would delete
+                  themselves upon execution. (Robert Sewell)
+                </p>
+              </div>
+
+              <button class="btn-secondary">
+                read more<i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <div class="modal-header">
+         
+          <button class="btn-close" id="close">
+            <i class="fa fa-times color-white"></i>
+          </button>
+        </div>
+          <div class="modal-body">
+            <h3>Sign Up</h3>
+            <p>
+              If we sort the DevTools, we can get to the API keycaps through the
+              fullstack TOML stack!
+            </p>
+            <form class="modal-form">
+              <div class="formfield-wrapper">
+              <div class="formfield">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter name" />
+              </div>
+              <div class="formfield">
+                <label for="email">E-mail</label>
+                <input type="e-mail" id="email" placeholder="Enter e-mail" />
+              </div>
+              <div class="formfield">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <div class="formfield">
+                <label for="confirmPassword">Confirm password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  placeholder="Enter confirm password"
+                />
+              </div>
+            </div>
+            <div class="sumbit-wrapper"></div>
+              <input type="submit" value="Sign me up" class="btn-submit" />
+            </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f347a2f41e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
